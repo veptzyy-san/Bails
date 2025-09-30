@@ -1,6 +1,6 @@
 # Modified Whatsapp-API
 <p align='center'>
-  <img src="https://files.catbox.moe/rhm9rt.webp" width="172">
+  <img src="https://files.catbox.moe/dmz4z9.png" width="172">
 </p>
 
 --- 
@@ -8,7 +8,7 @@
 ## Usage
 ```json
 "depencies": {
-  "@whiskeysockets/baileys": "github:tenka-san/WaBails"
+  "@whiskeysockets/baileys": "github:veptzyy-san/WaBails"
 }
 ```
 ## Import
@@ -56,12 +56,12 @@ console.log("Ur pairing code : " + code)
 ## send orderMessage
 ```javascript
 const fs = require('fs');
-const ZeppImg = fs.readFileSync('./ZeppImage');
+const vepImg = fs.readFileSync('./VeppImage');
 
 await client.sendMessage(m.chat, {
-  thumbnail: ZeppImg,
+  thumbnail: VepImg,
   message: "Gotta get a grip",
-  orderTitle: "7eppeli-Corporation",
+  orderTitle: "Veptzyy-Corporation",
   totalAmount1000: 72502,
   totalCurrencyCode: "IDR"
 }, { quoted:m })
@@ -71,7 +71,7 @@ await client.sendMessage(m.chat, {
 ```javascript
 await client.sendMessage(m.chat, {
   pollResultMessage: {
-    name: "7eppeli-Corporation",
+    name: "Veptzyy-Corporation",
     options: [
       {
         optionName: "poll 1"
@@ -81,7 +81,7 @@ await client.sendMessage(m.chat, {
       }
     ],
     newsletter: {
-      newsletterName: "7eppeli | Killer Queen Information",
+      newsletterName: "Veptzyy | Killer Queen Information",
       newsletterJid: "1@newsletter"
     }
   }
